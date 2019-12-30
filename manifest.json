@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "NoteMaker",
+    "description": "Write notes and annotations without exiting the current webpage",       
+    "version": "1.0",
+    "minimum_chrome_version":"29",
+    "background": { "scripts": ["background.js"], "persistent":false },
+    "icons": {  
+            "128":"./images/pic_14.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Cool Note Maker",
+        "default-icon": "./images/pic_14.png"
+    },
+    "permissions":[
+    "tabs", 
+    "<all_urls>",
+    "identity",
+    "https://*.googleapis.com/*"
+    ],
+    "oauth2":{  
+        "client_id":"397675070852-k2kmog18qi013s5mi3rjoirnakmorkop.apps.googleusercontent.com",
+
+        "scopes":[  
+            "https://www.googleapis.com/auth/documents"
+        ]
+    },
+    "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCySG+2t0RNQTzLRs8/R/sU2wcmeq89pE3984elhc1pMqEXQd39mlOA06taD1Q7jhQKBgZiFwA/m0bBtaUfsfZkNlnUloEOk9d9n7RufeHhAwmDBT6pAIFT06QUMRZwjMS107lGxg0chdnctcdu2jR6Oh5DQHCgDZ3LnBoPfvgIgsn4+DdWck7PCMI5z+y/tK+87TyutjnWwlnrE+GawbonApQFiFEx+aJkst3NZcjYN/nWxkk8UaImOwfBi1THNQV/2xXqPMkDEOwTPRqzqTO2Ss5dnRsS1fUfLnJ6Z3GY7notTjGv6+sO2UY0J9N4SnKaicM/Y0hUCNkHrwtZM0K9AgMBAAECggEAAgbSxkf1Dc/FCiaG6pg94XHP9f8FCPVaMZ3YF+iaeiyqKiKEjIJ5mohNdVuhQIAP+EEzR2Atj4uLVV5kPyT9wQvhH4qKcwj5NSNgoLTroWwwan3fxXoM/k/0mIoqUCM5hTuf6o8LzRw0as7iMn9mg1Ev0OHlpdwhxBPFNBHkbexR1ZiiJMzV2V8n9xi5Ni26o/hhVv/6JqjE+KAQIL3lsaT0u+P3ozTD5PfkJyXgCCGY/O+GD4CANhLPiDuQAy6uZIXJ6zEmI9r48ThaKBw3U60VXEzAL7rE2MMMJpCHP5Z0K9D7m7WmrgqFhL++R59dBtjKEb7t4ixZjO7f6xPo3QKBgQDbTaBDmftbn5h9/mbWCsgv2nN90v7mgiGszKiLQ18WToNDcHjesXgkLhuayGvVpVUDfFiBonmlI9vjq0hF5Z8mGFztO4rZQGJ1u/EoGC3PN6XmcjMi2TpbHxuGbXD6DY9YPvtCtZEE+U3tPiUbT0yU7pe1XQgdTMHiYxQ93zNxPwKBgQDQHZwUO0TmvmJn4dTheocxTE3/rC/ivy2wa2EdBfAQPqyLDRZ7YGkPqGd01Nv+MUu6CShecXJfxpLR8iYcBs1XmkluydFvllC48Bu1+HneLLh62+mhd3m6dlEl6a4Gy7tOgl+Ab8kRfI/3R1wNQNMIjW0ZuicQiL5Lw7p3ljxRAwKBgHZcOBIkSjhSM7BUnNYK7a5+HXUcaryoIVqs/o5jJy/X4hqE2od+ixQj2nw4jZK6b964vuAAe9z4NJZ0/EXVP4cFASp8x1yn1jwq2mZEXn0HUL/GhPja+xbw/B8adC5RITuEioGfkwx3LWrM7qQFsZR0DWcyNc3yfnYb+XHHRHFrAoGBALy4/R6DmLm+D7KwYcGOwSX9UgX1+P6f6yi+VzRgfA/fJcx6s9Zx2RPv3NFfbZeW0FsFjuwF6HfdtKpZ8iEcMf2s1cZ3kUqlftIWOqrLhofo+em/np9jnqluPawpujxDZ7mMFFp+BFGtKUhOF7WVAUoSJctcuawOtLIz7dYgENZNAoGBAK8QRwgLCK+R4qZ+HlqZkgQRmUwjtPzRWTfxw5+pPiH8TikkB4xyQj7swht9AFtzMVMHlyMjsYMwZGfKE8Pmaj5mPksXlHQg+DrP6XbKBSJc92LdOsLsCDaI0pvmhgHUhqF2fNXFl7q84E9I/pAzAE3qv0QIFcLH2QDhv5GM44dz"
+}
