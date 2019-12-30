@@ -1,1 +1,3 @@
 # writeToGoogleDocsFromChromeExtension
+
+Contact me for any queries, though I hopefully you wouldn't find the need, since I have extensively commented thigs to make things clear,and also go through mashe's article if you need further help, which I have included in the popup.js file....
