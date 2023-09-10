@@ -46,10 +46,6 @@ This extension is developed using JavaScript and Chrome identity for authenticat
 
 This extension was inspired by [Mashe Hawkey's blog post](https://mashe.hawksey.info/2017/05/using-the-google-apps-script-execution-api-in-chrome-extensions/) and the [Google Chrome Apps Samples](https://github.com/GoogleChrome/chrome-app-samples).
 
-## License
-
-This Chrome extension is open-source software licensed under the MIT License. Feel free to use, modify, and distribute it as needed. Please refer to the [LICENSE](LICENSE) file for more details.
-
 If you have any questions, encounter issues, or would like to contribute to the project, please visit the [GitHub repository](https://github.com/your-repo-link).
 
 Happy writing with Google Docs Writer!
